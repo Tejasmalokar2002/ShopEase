@@ -1,54 +1,61 @@
 {
-  "categories": [
-    {
-      "title": "Categories For Women",
-      "data": [
-        {
-          "title": "Hoodies & Sweetshirt",
-          "description": "Explore Now!",
-          "image": "./images/category-women-hoodies.jpg"
-        },
-        {
-        "title": "Coats & Parkas",
-          "description": "Explore Now!",
-          "image": "./images/category-women-coats.jpg"
-      },{
-        "title": "Tees & T-Shirt",
-          "description": "Explore Now!",
-          "image": "./images/category-women-tshirts.png"
-        },{
-          "title": "Shorts",
-          "description": "Explore Now!",
-          "image": "./images/category-women-shorts.jpg"
+    "pages":{
+        "shop":{
+            "sections":[
+                {
+                    "title":"Categories For Women",
+                    "data":[
+                        {
+                            "title":"Hoodies & Sweetshirt",
+                            "description":"Explore Now!",
+                            "image":"./images/category-women-hoodies.jpg"   
+                        },
+                        {
+                            "title":"Coats & Parkas",
+                            "description":"Explore Now!",
+                            "image":"./images/category-women-coats.jpg"   
+                        },
+                        {
+                            "title":"Tees & T-Shirt",
+                            "description":"Explore Now!",
+                            "image":"./images/category-women-tshirts.png"   
+                        },
+                        {
+                            "title":"Shorts",
+                            "description":"Explore Now!",
+                            "image":"./images/category-women-shorts.jpg"   
+                        }
+                    ]
+                },
+                {
+                    "title":"Categories For Men",
+                    "data":[
+                        {
+                            "title":"Shirts",
+                            "description":"Explore Now!",
+                            "image":"./images/category-men-shirts.jpg"   
+                        },
+                        {
+                            "title":"Jeans",
+                            "description":"Explore Now!",
+                            "image":"./images/category-men-jeans.jpg"   
+                        },
+                        {
+                            "title":"Hoodies & Sweetshirt",
+                            "description":"Explore Now!",
+                            "image":"./images/category-men-hoodies.png"   
+                        },
+                        {
+                            "title":"T-Shirts",
+                            "description":"Explore Now!",
+                            "image":"./images/category-men-tshirts.png"   
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    },{
-      "title": "Categories For Men",
-      "data": [
-        {
-          "title": "Shirt",
-          "description": "Explore Now!",
-          "image": "./images/category-men-shirts.jpg"
-        },
-        {
-          "title": "Jeans",
-          "description": "Explore Now!",
-          "image": "./images/category-men-jeans.jpg"
-        },
-        {
-          "title": "Hoodies & Sweetshirt",
-          "description": "Explore Now!",
-          "image": "./images/category-men-hoodies.png"
-        },
-        {
-          "title": "T-Shirt",
-          "description": "Explore Now!",
-          "image": "./images/category-men-tshirts.png"
-        }
-      ]
-    }
-  ],
-   "footer":{
+    },
+    "footer":{
         "items":[
             {
                 "title":"Need Help",
@@ -107,138 +114,12 @@
             },
             {
                 "title":"Location",
-                "description": "📍 India"
+                "description":"Location Country"
             }
         ],
         "copyright":"Copyright © 2024 ShopEase"
-    }, "categories": [
-        {
-          "id": 1,
-          "name": "Men",
-          "code": "MEN",
-          "path":"/men",
-          "description":"Men's Clothing",
-          "types": [
-            {
-              "id": 1,
-              "name": "Jeans",
-              "description": "Men's jeans"
-            },
-            {
-              "id": 2,
-              "name": "Shirts",
-              "description": "Men's shirts"
-            },
-            {
-              "id": 3,
-              "name": "Shorts",
-              "description": "Men's shorts"
-            },
-            {
-              "id": 4,
-              "name": "T-shirts",
-              "description": "Men's t-shirts"
-            },
-            {
-              "id": 14,
-              "name": "Hoodie's",
-              "description": "Men's Hoodie"
-            }
-          ],
-          "meta_data":{
-            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
-            "sizes":["S","M","L","XL","XXL"]
-          }
-        },
-        {
-          "id": 2,
-          "name": "Women",
-          "code": "WOMEN",
-          "path":"/women",
-          "description":"Women's Clothing",
-          "types": [
-            {
-              "type_id": 5,
-              "code":"DRESSES",
-              "name": "Dresses"
-            },
-            {
-              "type_id": 6,
-              "code":"CROPTOP",
-              "name": "Crop Top"
-            },
-            {
-              "type_id": 7,
-              "code":"SHORTS",
-              "name": "Shorts"
-            },
-            {
-              "type_id": 8,
-              "code":"JEANS",
-              "name": "Jeans"
-            },
-            {
-              "type_id": 9,
-              "code":"TSHIRTS",
-              "name": "T-shirt"
-            },
-            {
-              "type_id": 10,
-              "code":"SWEATSHIRT",
-              "name": "Hoodie/Sweatshirt"
-            },
-            {
-              "type_id": 11,
-              "code":"TOPS",
-              "name": "Tops"
-            },
-            {
-              "type_id": 12,
-              "code":"BOXERS",
-              "name": "Boxers"
-            },
-            {
-              "type_id": 13,
-              "code":"KURTIS",
-              "name": "Kurtis"
-            }
-          ],
-          "meta_data":{
-            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
-            "sizes":["S","M","L","XL","XXL"]
-          }
-        },
-        {
-          "id": 3,
-          "name": "Kids",
-          "code": "KIDS",
-          "path":"/kids",
-          "description":"Kids Clothing",
-          "types": [
-            {
-              "id": 15,
-              "name": "T-shirts",
-              "description": "Kids' t-shirts"
-            },
-            {
-              "id": 16,
-              "name": "Shorts",
-              "description": "Kids' shorts"
-            },
-            {
-              "id": 17,
-              "name": "Dresses",
-              "description": "Kids' dresses"
-            },
-            {
-              "id": 18,
-              "name": "Jeans",
-              "description": "Kids' jeans"
-            }
-          ],
-          "meta_data":{}
-        }
-    ],"categories": [
+    },
+    "categories": [
         {
           "id": 1,
           "name": "Men",
@@ -366,7 +247,7 @@
           "meta_data":{}
         }
     ],
-    "products":[
+     "products":[
       {
         "id": 1,
         "title": "Black Sweatshirt",
@@ -582,7 +463,7 @@
   "id": 15,
   "title": "Pink Jacket",
   "description": "Chic and warm pink jacket, perfect for chilly days and a bold fashion statement.",
-  "category_id": 3,
+  "category_id": 2,
   "type_id": 7,
   "brand": "WinterGlow",
   "price": 59.99,
@@ -956,7 +837,7 @@
   "id": 38,
   "title": "Men's White Shirt with Blue Jacket",
   "description": "Crisp white shirt paired with a stylish blue jacket, ideal for a smart casual or business look.",
-  "category_id": 3,
+  "category_id": 1,
   "type_id": 8,
   "brand": "BlueWave",
   "price": 64.99,
@@ -973,7 +854,7 @@
   "id": 39,
   "title": "Blue Denim Jacket - Men",
   "description": "Rugged and stylish blue denim jacket for men, ideal for layering in all seasons.",
-  "category_id": 3,
+  "category_id": 1,
   "type_id": 7,
   "brand": "DenimCore",
   "price": 64.99,
@@ -1469,4 +1350,5 @@
 
 
     ]
+
 }
