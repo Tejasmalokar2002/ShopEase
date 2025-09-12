@@ -3,8 +3,7 @@ import { Wishlist } from "../common/Wishlist";
 import { AccountIcon } from "../common/AccountIcon";
 import { CartIcon } from "../common/CartIcon";
 import { Link, NavLink, useNavigate } from "react-router-dom";
-import { useSelector } from "react-redux";
-// import { countCartItems } from '../../store/features/cart'
+ // import { countCartItems } from '../../store/features/cart'
 
 
 const Navigation = ({variant="default"}) => {

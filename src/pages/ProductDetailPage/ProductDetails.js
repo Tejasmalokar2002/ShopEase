@@ -1,36 +1,49 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import { useLoaderData, useParams } from 'react-router-dom'
+import { useLoaderData } from 'react-router-dom'
 import Breadcrumb from '../../components/Breadcrumb/Breadcrumb';
 import content from '../../data/content.json'
-import { useSelector } from 'react-redux';
 const categories = content?.categories;
 function ProductDetails() {
     const {product} = useLoaderData();
     const [image,setImage] = useState(product?.images[0] ?? product?.thumbnail);
     const [breadcrumbLinks, setBreadCrumbLink] = useState([]);
-  const productCategory = useMemo(() => {
-    return categories?.find((category) => category?.id === product?.categoryId);
-  }, [product,categories]);
+const productCategory = useMemo(() => {
+  return categories?.find((category) => category?.id === product?.categoryId);
+}, [product, categories]);
 
 
 
-    useEffect(() => {
-        setImage(product?.thumbnail);
-        setBreadCrumbLink([]);
-        const arrayLinks = [{ title: 'Shop', path: '/' }, {
-          title: productCategory?.name,
-          path: productCategory?.name
-        }];
-        const productType = productCategory?.categoryTypes?.find((item)=> item?.id === product?.categoryTypeId);
-        
-        if(productType){
-          arrayLinks?.push({
-            title: productType?.name,
-            path: productType?.name
-          })
-        }
-        setBreadCrumbLink(arrayLinks);
-      }, [productCategory, product]);
+
+useEffect(() => {
+  setImage(product?.thumbnail);
+  setBreadCrumbLink([]);
+
+  const arrayLinks = [{ title: 'Shop', path: '/' }];
+
+  if (productCategory) {
+    arrayLinks.push({
+      title: productCategory?.name,
+      path: productCategory?.path,
+    });
+
+    // Use correct types key from JSON
+    const productTypes = productCategory?.types;
+
+    // Fix `id` vs `type_id` issue
+    const productType = productTypes?.find((item) =>
+      (item?.id ?? item?.type_id) === product?.type_id
+    );
+
+    if (productType) {
+      arrayLinks.push({
+        title: productType?.name,
+        path: productType?.name,
+      });
+    }
+  }
+
+  setBreadCrumbLink(arrayLinks);
+}, [productCategory, product]);
 
 
   return (
