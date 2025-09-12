@@ -1,0 +1,1472 @@
+{
+  "categories": [
+    {
+      "title": "Categories For Women",
+      "data": [
+        {
+          "title": "Hoodies & Sweetshirt",
+          "description": "Explore Now!",
+          "image": "./images/category-women-hoodies.jpg"
+        },
+        {
+        "title": "Coats & Parkas",
+          "description": "Explore Now!",
+          "image": "./images/category-women-coats.jpg"
+      },{
+        "title": "Tees & T-Shirt",
+          "description": "Explore Now!",
+          "image": "./images/category-women-tshirts.png"
+        },{
+          "title": "Shorts",
+          "description": "Explore Now!",
+          "image": "./images/category-women-shorts.jpg"
+        }
+      ]
+    },{
+      "title": "Categories For Men",
+      "data": [
+        {
+          "title": "Shirt",
+          "description": "Explore Now!",
+          "image": "./images/category-men-shirts.jpg"
+        },
+        {
+          "title": "Jeans",
+          "description": "Explore Now!",
+          "image": "./images/category-men-jeans.jpg"
+        },
+        {
+          "title": "Hoodies & Sweetshirt",
+          "description": "Explore Now!",
+          "image": "./images/category-men-hoodies.png"
+        },
+        {
+          "title": "T-Shirt",
+          "description": "Explore Now!",
+          "image": "./images/category-men-tshirts.png"
+        }
+      ]
+    }
+  ],
+   "footer":{
+        "items":[
+            {
+                "title":"Need Help",
+                "list":[
+                    {
+                        "label":"Contact Us",
+                        "path":"/contact-us"
+                    },
+                    {
+                        "label":"Track Order",
+                        "path":"/track-order"
+                    },
+                    {
+                        "label":"Returns & Refunds",
+                        "path":"/refunds"
+                    },
+                    {
+                        "label":"FAQ's",
+                        "path":"/faq"
+                    },
+                    {
+                        "label":"Career",
+                        "path":"/career"
+                    }
+                ]
+            },
+            {
+                "title":"Company",
+                "list":[
+                    {
+                        "label":"About Us",
+                        "path":"/about"
+                    },
+                    {
+                        "label":"Media",
+                        "path":"/media"
+                    }
+                ]
+            },
+            {
+                "title":"More Info",
+                "list":[
+                    {
+                        "label":"Term and Conditions",
+                        "path":"/terms-conditions"
+                    },
+                    {
+                        "label":"Privacy Policy",
+                        "path":"/policies"
+                    },
+                    {
+                        "label":"Shipping Policy",
+                        "path":"/policies"
+                    }
+                ]
+            },
+            {
+                "title":"Location",
+                "description": "📍 India"
+            }
+        ],
+        "copyright":"Copyright © 2024 ShopEase"
+    }, "categories": [
+        {
+          "id": 1,
+          "name": "Men",
+          "code": "MEN",
+          "path":"/men",
+          "description":"Men's Clothing",
+          "types": [
+            {
+              "id": 1,
+              "name": "Jeans",
+              "description": "Men's jeans"
+            },
+            {
+              "id": 2,
+              "name": "Shirts",
+              "description": "Men's shirts"
+            },
+            {
+              "id": 3,
+              "name": "Shorts",
+              "description": "Men's shorts"
+            },
+            {
+              "id": 4,
+              "name": "T-shirts",
+              "description": "Men's t-shirts"
+            },
+            {
+              "id": 14,
+              "name": "Hoodie's",
+              "description": "Men's Hoodie"
+            }
+          ],
+          "meta_data":{
+            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
+            "sizes":["S","M","L","XL","XXL"]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Women",
+          "code": "WOMEN",
+          "path":"/women",
+          "description":"Women's Clothing",
+          "types": [
+            {
+              "type_id": 5,
+              "code":"DRESSES",
+              "name": "Dresses"
+            },
+            {
+              "type_id": 6,
+              "code":"CROPTOP",
+              "name": "Crop Top"
+            },
+            {
+              "type_id": 7,
+              "code":"SHORTS",
+              "name": "Shorts"
+            },
+            {
+              "type_id": 8,
+              "code":"JEANS",
+              "name": "Jeans"
+            },
+            {
+              "type_id": 9,
+              "code":"TSHIRTS",
+              "name": "T-shirt"
+            },
+            {
+              "type_id": 10,
+              "code":"SWEATSHIRT",
+              "name": "Hoodie/Sweatshirt"
+            },
+            {
+              "type_id": 11,
+              "code":"TOPS",
+              "name": "Tops"
+            },
+            {
+              "type_id": 12,
+              "code":"BOXERS",
+              "name": "Boxers"
+            },
+            {
+              "type_id": 13,
+              "code":"KURTIS",
+              "name": "Kurtis"
+            }
+          ],
+          "meta_data":{
+            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
+            "sizes":["S","M","L","XL","XXL"]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Kids",
+          "code": "KIDS",
+          "path":"/kids",
+          "description":"Kids Clothing",
+          "types": [
+            {
+              "id": 15,
+              "name": "T-shirts",
+              "description": "Kids' t-shirts"
+            },
+            {
+              "id": 16,
+              "name": "Shorts",
+              "description": "Kids' shorts"
+            },
+            {
+              "id": 17,
+              "name": "Dresses",
+              "description": "Kids' dresses"
+            },
+            {
+              "id": 18,
+              "name": "Jeans",
+              "description": "Kids' jeans"
+            }
+          ],
+          "meta_data":{}
+        }
+    ],"categories": [
+        {
+          "id": 1,
+          "name": "Men",
+          "code": "MEN",
+          "path":"/men",
+          "description":"Men's Clothing",
+          "types": [
+            {
+              "id": 1,
+              "name": "Jeans",
+              "description": "Men's jeans"
+            },
+            {
+              "id": 2,
+              "name": "Shirts",
+              "description": "Men's shirts"
+            },
+            {
+              "id": 3,
+              "name": "Shorts",
+              "description": "Men's shorts"
+            },
+            {
+              "id": 4,
+              "name": "T-shirts",
+              "description": "Men's t-shirts"
+            },
+            {
+              "id": 14,
+              "name": "Hoodie's",
+              "description": "Men's Hoodie"
+            }
+          ],
+          "meta_data":{
+            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
+            "sizes":["S","M","L","XL","XXL"]
+          }
+        },
+        {
+          "id": 2,
+          "name": "Women",
+          "code": "WOMEN",
+          "path":"/women",
+          "description":"Women's Clothing",
+          "types": [
+            {
+              "type_id": 5,
+              "code":"DRESSES",
+              "name": "Dresses"
+            },
+            {
+              "type_id": 6,
+              "code":"CROPTOP",
+              "name": "Crop Top"
+            },
+            {
+              "type_id": 7,
+              "code":"SHORTS",
+              "name": "Shorts"
+            },
+            {
+              "type_id": 8,
+              "code":"JEANS",
+              "name": "Jeans"
+            },
+            {
+              "type_id": 9,
+              "code":"TSHIRTS",
+              "name": "T-shirt"
+            },
+            {
+              "type_id": 10,
+              "code":"SWEATSHIRT",
+              "name": "Hoodie/Sweatshirt"
+            },
+            {
+              "type_id": 11,
+              "code":"TOPS",
+              "name": "Tops"
+            },
+            {
+              "type_id": 12,
+              "code":"BOXERS",
+              "name": "Boxers"
+            },
+            {
+              "type_id": 13,
+              "code":"KURTIS",
+              "name": "Kurtis"
+            }
+          ],
+          "meta_data":{
+            "colors":["Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Grey","Yellow","Pink","Green"],
+            "sizes":["S","M","L","XL","XXL"]
+          }
+        },
+        {
+          "id": 3,
+          "name": "Kids",
+          "code": "KIDS",
+          "path":"/kids",
+          "description":"Kids Clothing",
+          "types": [
+            {
+              "id": 15,
+              "name": "T-shirts",
+              "description": "Kids' t-shirts"
+            },
+            {
+              "id": 16,
+              "name": "Shorts",
+              "description": "Kids' shorts"
+            },
+            {
+              "id": 17,
+              "name": "Dresses",
+              "description": "Kids' dresses"
+            },
+            {
+              "id": 18,
+              "name": "Jeans",
+              "description": "Kids' jeans"
+            }
+          ],
+          "meta_data":{}
+        }
+    ],
+    "products":[
+      {
+        "id": 1,
+        "title": "Black Sweatshirt",
+        "description": "100% Bio-washed Cotton – makes the fabric extra soft & silky. Flexible ribbed crew neck. Precisely stitched with no pilling & no fading. Provide  all-time comfort. Anytime, anywhere. Infinite range of matte-finish HD prints.",
+        "category_id": 2,
+        "type_id": 10,
+        "brand": "Nike",
+        "price": 49.99,
+        "size": ["S", "M", "L"],
+        "color": ["Black","Blue"],
+        "discount": 20,
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black-Sweatshirt-Women.jpeg",
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black-Sweatshirt-Women.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black-Sweatshirt-Women.jpeg","https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black-Sweatshirt-Women.jpeg"],
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "title": "White T-shirt",
+        "description": "A stylish white t-shirt for women",
+        "category_id": 2,
+        "type_id": 9,
+        "brand": "TrendyWear",
+        "price": 29.99,
+        "size": ["S", "M", "L"],
+        "color": ["White"],
+        "discount": 15,
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/White-TShirt-Women.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/White-TShirt-Women.jpeg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/White-TShirt-Women.jpeg",
+        "rating": 4.5
+      },
+      {
+        "id": 3,
+        "title": "Purple Hoodie",
+        "description": "A cozy purple hoodie for women",
+        "category_id": 2,
+        "type_id": 10,
+        "brand": "Nike",
+        "price": 69.99,
+        "size": ["S", "M", "L"],
+        "color": ["Purple"],
+        "discount": 10,
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/PurpleHoodie-Women.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/PurpleHoodie-Women.jpeg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/PurpleHoodie-Women.jpeg",
+        "rating": 4.6
+      },
+      {
+        "id": 4,
+        "title": "Leaves Pattern White Dress",
+        "description": "A beautiful leaves pattern white dress for women",
+        "category_id": 2,
+        "type_id": 5,
+        "brand": "SummerVibes",
+        "price": 79.99,
+        "size": ["S", "M", "L"],
+        "color": ["White"],
+        "discount": 5,
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Leaves Pattern White Dress Women.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Leaves Pattern White Dress Women.jpeg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Leaves Pattern White Dress Women.jpeg",
+        "rating": 4.7
+      },
+      {
+        "id": 5,
+        "title": "White Graphic Crop Top",
+        "description": "A trendy white graphic crop top for women",
+        "category_id": 2,
+        "type_id": 9,
+        "brand": "TrendyWear",
+        "price": 39.99,
+        "size": ["S", "M", "L"],
+        "color": ["White"],
+        "discount": 10,
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/White Graphic Crop Top Women.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/White Graphic Crop Top Women.jpeg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/White Graphic Crop Top Women.jpeg",
+        "rating": 4.3
+      },
+      {
+        "id": 6,
+        "title": "Black Shorts",
+        "description": "Stylish black shorts for women",
+        "category_id": 2,
+        "type_id": 7,
+        "brand": "Nike",
+        "price": 34.99,
+        "size": ["S", "M", "L"],
+        "color": ["Black"],
+        "discount": 15,
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black Shorts Women.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black Shorts Women.jpeg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black Shorts Women.jpeg",
+        "rating": 4.5
+      },
+      {
+        "id": 7,
+        "title": "Women's Skinny Jeans",
+        "description": "Trendy women's skinny jeans for a stylish look",
+        "category_id": 2,
+        "type_id": 8,
+        "brand": "ChicStyle",
+        "price": 59.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 10,
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Women's Skinny Jeans.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Women's Skinny Jeans.jpeg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Women's Skinny Jeans.jpeg",
+        "rating": 4.8
+      },
+      {
+        "id": 8,
+        "title": "Crewneck Sweatshirt",
+        "description": "Comfortable crewneck sweatshirt for women",
+        "category_id": 2,
+        "type_id": 10,
+        "brand": "TrendyWear",
+        "price": 44.99,
+        "size": ["S", "M", "L"],
+        "color": ["Gray"],
+        "discount": 10,
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Crewneck Sweatshirt.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Crewneck Sweatshirt.jpeg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Crewneck Sweatshirt.jpeg",
+        "rating": 4.6
+      },
+      {
+        "id": 9,
+        "title": "Denim Shorts",
+        "description": "Stylish denim shorts for women",
+        "category_id": 2,
+        "type_id": 7,
+        "brand": "SummerVibes",
+        "price": 39.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 15,
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Denim Shorts.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Denim Shorts.jpeg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Denim Shorts.jpeg",
+        "rating": 4.7
+      },
+      {
+        "id": 10,
+        "title": "Black Plain T-shirt",
+        "description": "Classic black plain t-shirt for women",
+        "category_id": 2,
+        "type_id": 9,
+        "brand": "Nike",
+        "price": 24.99,
+        "size": ["S", "M", "L"],
+        "color": ["Black"],
+        "discount": 10,
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black Plain T-shirt Women.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black Plain T-shirt Women.jpeg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black Plain T-shirt Women.jpeg",
+        "rating": 4.5
+      },
+      {
+        "id": 11,
+        "title": "Blue Flower Print Crop Top",
+        "description": "Stylish blue flower print crop top for women",
+        "category_id": 2,
+        "type_id": 9,
+        "brand": "TrendyWear",
+        "price": 34.99,
+        "size": ["S", "M", "L"],
+        "color": ["Blue"],
+        "discount": 15,
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Blue Flower Print Crop Top Women.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Blue Flower Print Crop Top Women.jpeg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Blue Flower Print Crop Top Women.jpeg",
+        "rating": 4.3
+      },
+      {
+        "id": 12,
+        "title": "Black Crop Top",
+        "description": "Stylish black crop top for women",
+        "category_id": 2,
+        "type_id": 9,
+        "brand": "TrendyWear",
+        "price": 29.99,
+        "size": ["S", "M", "L"],
+        "color": ["Black"],
+        "discount": 10,
+        "images": ["https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black Crop Top Women.jpeg", "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black Crop Top Women.jpeg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black Crop Top Women.jpeg",
+        "rating": 4.2
+      },{
+  "id": 13,
+  "title": "Purple Crop Top",
+  "description": "Trendy purple crop top for women, perfect for casual outings or stylish events.",
+  "category_id": 2,
+  "type_id": 9,
+  "brand": "TrendyWear",
+  "price": 32.99,
+  "size": ["S", "M", "L"],
+  "color": ["Purple"],
+  "discount": 12,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-anastasiya-gepp-654466-2065195.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-anastasiya-gepp-654466-2065195.jpg",
+  "rating": 4.5
+},{
+  "id": 14,
+  "title": "White Casual Shirt",
+  "description": "Classic white shirt with a clean look — ideal for both formal and casual occasions.",
+  "category_id": 2,
+  "type_id": 4,
+  "brand": "UrbanStyle",
+  "price": 39.99,
+  "size": ["S", "M", "L", "XL"],
+  "color": ["White"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-andy-lee-1453672476-33852632.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-andy-lee-1453672476-33852632.jpg",
+  "rating": 4.3
+},{
+  "id": 15,
+  "title": "Pink Jacket",
+  "description": "Chic and warm pink jacket, perfect for chilly days and a bold fashion statement.",
+  "category_id": 3,
+  "type_id": 7,
+  "brand": "WinterGlow",
+  "price": 59.99,
+  "size": ["S", "M", "L"],
+  "color": ["Pink"],
+  "discount": 20,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-athena-2043590.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-athena-2043590.jpg",
+  "rating": 4.6
+},
+{
+  "id": 16,
+  "title": "Orange Casual Top",
+  "description": "Vibrant orange top designed for comfort and style — perfect for summer outings or casual hangouts.",
+  "category_id": 2,
+  "type_id": 9,
+  "brand": "ColorBloom",
+  "price": 27.99,
+  "size": ["S", "M", "L"],
+  "color": ["Orange"],
+  "discount": 12,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-emanuel-pedro-1266938328-33841871.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-emanuel-pedro-1266938328-33841871.jpg",
+  "rating": 4.3
+}
+,{
+  "id": 17,
+  "title": "Black Crop Top",
+  "description": "Sleek and stylish black crop top, perfect for casual and evening wear.",
+  "category_id": 2,
+  "type_id": 9,
+  "brand": "TrendyWear",
+  "price": 29.99,
+  "size": ["S", "M", "L"],
+  "color": ["Black"],
+  "discount": 10,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-emanuel-pedro-1266938328-33841912.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-emanuel-pedro-1266938328-33841912.jpg",
+  "rating": 4.2
+}
+,{
+  "id": 18,
+  "title": "Black & White One Piece",
+  "description": "Elegant black and white one-piece outfit, perfect for a chic and sophisticated look.",
+  "category_id": 2,
+  "type_id": 11,
+  "brand": "EleganceWear",
+  "price": 49.99,
+  "size": ["S", "M", "L"],
+  "color": ["Black", "White"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-godisable-jacob-226636-859205.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-godisable-jacob-226636-859205.jpg",
+  "rating": 4.5
+}
+,{
+  "id": 19,
+  "title": "Grey Premium Suit",
+  "description": "Sophisticated grey premium suit, tailored for formal occasions and professional settings.",
+  "category_id": 2,
+  "type_id": 12,
+  "brand": "EliteTailors",
+  "price": 149.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Grey"],
+  "discount": 25,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-godisable-jacob-226636-952214.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-godisable-jacob-226636-952214.jpg",
+  "rating": 4.7
+},{
+  "id": 20,
+  "title": "Orange Top with Checks Shorts Set",
+  "description": "Trendy orange top paired with stylish checks shorts — perfect for casual summer outings.",
+  "category_id": 2,
+  "type_id": 14,
+  "brand": "SummerVibes",
+  "price": 39.99,
+  "size": ["S", "M", "L"],
+  "color": ["Orange", "Checks"],
+  "discount": 18,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-jansel-ferma-306295-2085118.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-jansel-ferma-306295-2085118.jpg",
+  "rating": 4.5
+},{
+  "id": 21,
+  "title": "Blue Denim Jacket - Women",
+  "description": "Stylish blue denim jacket for women, perfect for layering in all seasons.",
+  "category_id": 2,
+  "type_id": 7,
+  "brand": "DenimCore",
+  "price": 64.99,
+  "size": ["S", "M", "L"],
+  "color": ["Blue"],
+  "discount": 18,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-jmendezrf-1536619.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-jmendezrf-1536619.jpg",
+  "rating": 4.5
+},{
+  "id": 22,
+  "title": "Pink Two-Piece Gown Set",
+  "description": "Elegant pink two-piece gown set featuring a stylish top and a flowing skirt, perfect for formal occasions and celebrations.",
+  "category_id": 2,
+  "type_id": 15,
+  "brand": "GraceAura",
+  "price": 79.99,
+  "size": ["S", "M", "L"],
+  "color": ["Pink"],
+  "discount": 20,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-kowalievska-1126993.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-kowalievska-1126993.jpg",
+  "rating": 4.6
+},{
+  "id": 23,
+  "title": "Fitted Lined Crop Top",
+  "description": "Sleek and fitted crop top with lining for added comfort and style, perfect for casual and trendy outfits.",
+  "category_id": 2,
+  "type_id": 9,
+  "brand": "UrbanEdge",
+  "price": 24.99,
+  "size": ["S", "M", "L"],
+  "color": ["White"],
+  "discount": 10,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-leonnebrito-1844012.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-leonnebrito-1844012.jpg",
+  "rating": 4.3
+},{
+  "id": 24,
+  "title": "Strappy Crop Top & Baggy White Pants Set",
+  "description": "Chic sleeveless strappy crop top paired with comfortable baggy white pants — perfect for a stylish and relaxed look.",
+  "category_id": 2,
+  "type_id": 14,
+  "brand": "FreeFlow",
+  "price": 44.99,
+  "size": ["S", "M", "L"],
+  "color": ["White"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-luiz-gustavo-miertschink-925274-1877736.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-luiz-gustavo-miertschink-925274-1877736.jpg",
+  "rating": 4.4
+},{
+  "id": 25,
+  "title": "Women's Long Brown Trench Coat",
+  "description": "Elegant and versatile long brown trench coat for women, perfect for layering in cooler weather.",
+  "category_id": 2,
+  "type_id": 7,
+  "brand": "UrbanElegance",
+  "price": 89.99,
+  "size": ["S", "M", "L"],
+  "color": ["Brown"],
+  "discount": 20,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-maryiaplashchynskaya-3615455.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-maryiaplashchynskaya-3615455.jpg",
+  "rating": 4.6
+},{
+  "id": 26,
+  "title": "Black Polka Dot Shirt with Open Collar",
+  "description": "Trendy black shirt featuring white polka dots and an open collar design without top buttons, perfect for a chic casual look.",
+  "category_id": 2,
+  "type_id": 4,
+  "brand": "DotTrend",
+  "price": 32.99,
+  "size": ["S", "M", "L"],
+  "color": ["Black", "White"],
+  "discount": 12,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-olenagoldman-1021693.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-olenagoldman-1021693.jpg",
+  "rating": 4.3
+},{
+  "id": 27,
+  "title": "Red Women's Top",
+  "description": "Vibrant red top for women, designed to bring a pop of color to casual and semi-formal outfits.",
+  "category_id": 2,
+  "type_id": 9,
+  "brand": "VivaStyle",
+  "price": 28.99,
+  "size": ["S", "M", "L"],
+  "color": ["Red"],
+  "discount": 12,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-olly-974911.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-olly-974911.jpg",
+  "rating": 4.3
+},{
+  "id": 28,
+  "title": "Black Stylish Crop Tops - Women",
+  "description": "Chic black crop tops for women, designed with a modern cut for a trendy and elegant look.",
+  "category_id": 2,
+  "type_id": 9,
+  "brand": "StyleMates",
+  "price": 29.99,
+  "size": ["S", "M", "L"],
+  "color": ["Black"],
+  "discount": 10,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-pixabay-247204.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-pixabay-247204.jpg",
+  "rating": 4.4
+},{
+  "id": 29,
+  "title": "Sleeveless Top with Scarf Jacket & Torn Shorts",
+  "description": "Trendy sleeveless top paired with a scarf-style jacket and torn shorts, perfect for a casual, edgy look.",
+  "category_id": 2,
+  "type_id": 14,
+  "brand": "UrbanChic",
+  "price": 42.99,
+  "size": ["S", "M", "L"],
+  "color": ["White", "Beige", "Denim"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-postiglioni-852860.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-postiglioni-852860.jpg",
+  "rating": 4.5
+},{
+  "id": 30,
+  "title": "White Crew Neck T-Shirt with Brown Casual Shorts",
+  "description": "Classic white crew neck t-shirt paired with comfortable brown casual shorts, perfect for a relaxed and stylish summer look.",
+  "category_id": 2,
+  "type_id": 14,
+  "brand": "CasualEase",
+  "price": 34.99,
+  "size": ["S", "M", "L"],
+  "color": ["White", "Brown"],
+  "discount": 12,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-quanshortnugumac-33859190.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-quanshortnugumac-33859190.jpg",
+  "rating": 4.3
+},{
+  "id": 31,
+  "title": "Blue Indian Kurta for Women",
+  "description": "Elegant blue Indian kurta featuring traditional design, perfect for festive occasions and everyday wear.",
+  "category_id": 2,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 49.99,
+  "size": ["S", "M", "L", "XL"],
+  "color": ["Blue"],
+  "discount": 18,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-samarth-904117.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-samarth-904117.jpg",
+  "rating": 4.5
+},{
+  "id": 32,
+  "title": "Women's Pink Casual Jacket",
+  "description": "Soft pink casual jacket for women, perfect for adding a pop of color to any outfit.",
+  "category_id": 2,
+  "type_id": 7,
+  "brand": "BlushWear",
+  "price": 54.99,
+  "size": ["S", "M", "L"],
+  "color": ["Pink"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-sixyfifty-845195-1735671.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-sixyfifty-845195-1735671.jpg",
+  "rating": 4.4
+},{
+  "id": 33,
+  "title": "Women's Fitted Pink Indian Kurta with White Pajama",
+  "description": "Elegant fitted pink Indian kurta paired with classic white pajama, perfect for traditional and festive occasions.",
+  "category_id": 2,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 59.99,
+  "size": ["S", "M", "L", "XL"],
+  "color": ["Pink", "White"],
+  "discount": 18,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-soldiervip-1468379.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-soldiervip-1468379.jpg",
+  "rating": 4.6
+},{
+  "id": 34,
+  "title": "Women's Blue One-Piece Dress",
+  "description": "Elegant blue one-piece dress for women, perfect for casual and semi-formal occasions.",
+  "category_id": 2,
+  "type_id": 15,
+  "brand": "EleganceWear",
+  "price": 54.99,
+  "size": ["S", "M", "L"],
+  "color": ["Blue"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-thelazyartist-1201613.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-thelazyartist-1201613.jpg",
+  "rating": 4.5
+},{
+  "id": 35,
+  "title": "Beige Faux Fur Coat Dress",
+  "description": "Elegant beige faux fur coat dress for women, combining warmth and style for a chic winter look.",
+  "category_id":2,
+  "type_id": 15,
+  "brand": "FauxChic",
+  "price": 89.99,
+  "size": ["S", "M", "L"],
+  "color": ["Beige"],
+  "discount": 20,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/stylish-woman-beige-fur-coat-dress-posing.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/stylish-woman-beige-fur-coat-dress-posing.jpg",
+  "rating": 4.6
+},{
+  "id": 36,
+  "title": "Red Floral Dress for Women",
+  "description": "Vibrant red dress adorned with floral patterns, perfect for casual outings and festive occasions.",
+  "category_id": 2,
+  "type_id": 15,
+  "brand": "FloraStyle",
+  "price": 59.99,
+  "size": ["S", "M", "L"],
+  "color": ["Red", "Multicolor"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/young-woman-with-shopping-bags-beautiful-dress-hat.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/young-woman-with-shopping-bags-beautiful-dress-hat.jpg",
+  "rating": 4.5
+},
+{
+  "id": 37,
+  "title": "Men's Red Suit",
+  "description": "Bold and stylish red suit for men, perfect for formal events and special occasions.",
+  "category_id": 1,
+  "type_id": 12,
+  "brand": "SharpLook",
+  "price": 129.99,
+  "size": ["38", "40", "42", "44"],
+  "color": ["Red"],
+  "discount": 20,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-thelazyartist-1300550.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-thelazyartist-1300550.jpg",
+  "rating": 4.7
+},
+{
+  "id": 38,
+  "title": "Men's White Shirt with Blue Jacket",
+  "description": "Crisp white shirt paired with a stylish blue jacket, ideal for a smart casual or business look.",
+  "category_id": 3,
+  "type_id": 8,
+  "brand": "BlueWave",
+  "price": 64.99,
+  "size": ["M", "L", "XL"],
+  "color": ["White", "Blue"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-royalanwar-450212.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-royalanwar-450212.jpg",
+  "rating": 4.6
+},
+{
+  "id": 39,
+  "title": "Blue Denim Jacket - Men",
+  "description": "Rugged and stylish blue denim jacket for men, ideal for layering in all seasons.",
+  "category_id": 3,
+  "type_id": 7,
+  "brand": "DenimCore",
+  "price": 64.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Blue"],
+  "discount": 18,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-blitzboy-1040945.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-blitzboy-1040945.jpg",
+  "rating": 4.4
+},{
+  "id": 40,
+  "title": "Light Blue Shirt - Men",
+  "description": "Elegant light blue shirt for men, perfect for office wear or casual outings.",
+  "category_id": 1,
+  "type_id": 4,
+  "brand": "ClassicFit",
+  "price": 34.99,
+  "size": ["S", "M", "L", "XL"],
+  "color": ["Light Blue"],
+  "discount": 10,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-chloekalaartist-1043474.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-chloekalaartist-1043474.jpg",
+  "rating": 4.2
+},{
+  "id": 41,
+  "title": "Blue Skinny Jeans - Men",
+  "description": "Comfortable and stylish blue skinny jeans for men, perfect for everyday wear.",
+  "category_id": 1,
+  "type_id": 13,
+  "brand": "DenimFlex",
+  "price": 49.99,
+  "size": ["30", "32", "34", "36"],
+  "color": ["Blue"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-hazardos-1306248.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-hazardos-1306248.jpg",
+  "rating": 4.4
+},{
+  "id": 42,
+  "title": "Yellow Hoodie - Men",
+  "description": "Bright yellow hoodie for men, offering comfort and casual style for everyday wear.",
+  "category_id": 1,
+  "type_id": 8,
+  "brand": "CozyWear",
+  "price": 39.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Yellow"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-marleneleppanen-1183266.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-marleneleppanen-1183266.jpg",
+  "rating": 4.5
+},{
+  "id": 43,
+  "title": "Black Jeans - Men",
+  "description": "Classic black jeans for men, designed for comfort and everyday wear.",
+  "category_id": 1,
+  "type_id": 13,
+  "brand": "DenimFlex",
+  "price": 44.99,
+  "size": ["30", "32", "34", "36"],
+  "color": ["Black"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-mostafasanadd-878358.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-mostafasanadd-878358.jpg",
+  "rating": 4.4
+},{
+  "id": 44,
+  "title": "Brown Jacket with High-Collar T-Shirt - Men",
+  "description": "Stylish brown jacket layered over a high-collar t-shirt, perfect for a smart casual look.",
+  "category_id": 1,
+  "type_id": 8,
+  "brand": "UrbanLayer",
+  "price": 69.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Brown"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-olly-842811.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-olly-842811.jpg",
+  "rating": 4.5
+},{
+  "id": 45,
+  "title": "Men's Long Black Jacket with Torn Jeans",
+  "description": "Edgy long black jacket paired with black torn jeans, perfect for a bold and stylish look.",
+  "category_id": 1,
+  "type_id": 7,
+  "brand": "StreetEdge",
+  "price": 89.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Black"],
+  "discount": 20,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-pixabay-157675.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-pixabay-157675.jpg",
+  "rating": 4.6
+},{
+  "id": 46,
+  "title": "Men's Black Shirt with Black Jacket",
+  "description": "Classic black shirt paired with a sleek black jacket, perfect for a sharp and sophisticated look.",
+  "category_id": 1,
+  "type_id": 8,
+  "brand": "BlackLine",
+  "price": 59.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Black"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-rfera-432059.jpg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/pexels-rfera-432059.jpg",
+  "rating": 4.5
+},
+      {
+        "id": 47,
+        "title": "Black T-Shirt",
+        "description": "Classic black t-shirt for men",
+        "category_id": 1,
+        "type_id": 4,
+        "brand": "Nike",
+        "price": 24.99,
+        "size": ["M", "L", "XL"],
+        "color": ["Black"],
+        "discount": 10,
+        "images": ["black-tshirt1.jpg", "black-tshirt2.jpg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black T-Shirt Men.jpeg",
+        "rating": 4.5
+      },
+      {
+        "id": 48,
+        "title": "White Hoodie",
+        "description": "Comfortable white hoodie for men",
+        "category_id": 1,
+        "type_id": 14,
+        "brand": "Adidas",
+        "price": 59.99,
+        "size": ["M", "L", "XL"],
+        "color": ["White"],
+        "discount": 15,
+        "images": ["white-hoodie1.jpg", "white-hoodie2.jpg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/White Hoodie men.jpeg",
+        "rating": 4.7
+      },
+      {
+        "id": 49,
+        "title": "Blue Jeans",
+        "description": "Stylish blue jeans for men",
+        "category_id": 1,
+        "type_id": 1,
+        "brand": "Levis",
+        "price": 49.99,
+        "size": ["M", "L", "XL"],
+        "color": ["Blue"],
+        "discount": 20,
+        "images": ["blue-jeans1.jpg", "blue-jeans2.jpg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Blue Jeans men.jpeg",
+        "rating": 4.6
+      },
+      {
+        "id": 50,
+        "title": "Gray Shorts",
+        "description": "Comfortable gray shorts for men",
+        "category_id": 1,
+        "type_id": 3,
+        "brand": "Puma",
+        "price": 29.99,
+        "size": ["M", "L", "XL"],
+        "color": ["Gray"],
+        "discount": 10,
+        "images": ["gray-shorts1.jpg", "gray-shorts2.jpg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Gray Shorts Men.jpeg",
+        "rating": 4.4
+      },
+      {
+        "id": 51,
+        "title": "Black Hoodie",
+        "description": "Comfortable black hoodie for men",
+        "category_id": 1,
+        "type_id": 14,
+        "brand": "Adidas",
+        "price": 59.99,
+        "size": ["M", "L", "XL"],
+        "color": ["Black"],
+        "discount": 15,
+        "images": ["black-hoodie1.jpg", "black-hoodie2.jpg"],
+        "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/Black Hoodie Men.jpeg",
+        "rating": 4.8
+      },
+      {
+  "id": 52,
+  "title": "Indian Rose Gold Men's Kurta",
+  "description": "Elegant rose gold men's kurta featuring traditional Indian design, perfect for festive and cultural occasions.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 69.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Rose Gold"],
+  "discount": 18,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1119569915_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1119569915_Preview.jpeg",
+  "rating": 4.7
+},{
+  "id": 53,
+  "title": "Blue Indian Kurta for Men",
+  "description": "Traditional blue Indian kurta for men, perfect for festive occasions and daily wear.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 49.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Blue"],
+  "discount": 18,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1360352054_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1360352054_Preview.jpeg",
+  "rating": 4.5
+},{
+  "id": 54,
+  "title": "Men's Punjabi White Kurta",
+  "description": "Classic white Punjabi kurta for men, featuring traditional styling perfect for cultural and festive events.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 54.99,
+  "size": ["M", "L", "XL"],
+  "color": ["White"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1389024444_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1389024444_Preview.jpeg",
+  "rating": 4.6
+},{
+  "id": 55,
+  "title": "Men's Traditional Kurta",
+  "description": "Elegant traditional kurta for men, ideal for cultural ceremonies and festive celebrations.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 59.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Cream"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1447071967_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1447071967_Preview.jpeg",
+  "rating": 4.6
+},{
+  "id": 56,
+  "title": "Men's Jodhpuri Suit",
+  "description": "Traditional men's Jodhpuri suit, perfect for weddings and formal occasions.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 64.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Dark Green"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1490516996_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1490516996_Preview.jpeg",
+  "rating": 4.7
+},{
+  "id": 57,
+  "title": "Men's Traditional Gold Kurta",
+  "description": "Luxurious gold traditional kurta for men, ideal for festive and ceremonial occasions.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 69.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Gold"],
+  "discount": 18,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1559332220_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_1559332220_Preview.jpeg",
+  "rating": 4.8
+},
+{
+  "id": 58,
+  "title": "Men's Denim Shirt",
+  "description": "Classic denim shirt for men, perfect for casual and semi-formal wear.",
+  "category_id": 1,
+  "type_id": 8,
+  "brand": "DenimPro",
+  "price": 39.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Blue"],
+  "discount": 12,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_307079598_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_307079598_Preview.jpeg",
+  "rating": 4.4
+}
+,{
+  "id": 59,
+  "title": "Men's Royal Function Kurta",
+  "description": "Luxurious kurta designed for royal functions like weddings and engagements, featuring intricate detailing and premium fabric.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 89.99,
+  "size": ["M", "L", "XL", "XXL"],
+  "color": ["Off-White"],
+  "discount": 20,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_439578400_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_439578400_Preview.jpeg",
+  "rating": 4.8
+}
+,{
+  "id": 60,
+  "title": "Men's Simple Khadi Kurta",
+  "description": "Comfortable and breathable simple khadi kurta for men, ideal for everyday casual wear.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 39.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Beige"],
+  "discount": 10,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_443036015_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_443036015_Preview.jpeg",
+  "rating": 4.3
+},{
+  "id": 61,
+  "title": "Men's Nehru Collar Kurta with Modi Pattern",
+  "description": "Stylish kurta featuring the iconic Modi pattern and Nehru collar, perfect for traditional and formal occasions.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 59.99,
+  "size": ["M", "L", "XL"],
+  "color": ["White", "Beige"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_545232433_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_545232433_Preview.jpeg",
+  "rating": 4.7
+},{
+  "id": 62,
+  "title": "Marriage Couple Complete Set",
+  "description": "Elegant matching traditional outfits for couples, perfect for weddings and special occasions.",
+  "category_id": 1,
+  "type_id": 17,
+  "brand": "EthniCraft",
+  "price": 149.99,
+  "size": ["S", "M", "L", "XL"],
+  "color": ["Red", "Gold"],
+  "discount": 20,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_679184899_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_679184899_Preview.jpeg",
+  "rating": 4.9
+},{
+  "id": 63,
+  "title": "Men's Green Checked Jacket",
+  "description": "Casual green checked jacket for men, perfect for layering over t-shirts with beige jeans.",
+  "category_id": 1,
+  "type_id": 9,
+  "brand": "UrbanStyle",
+  "price": 59.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Green", "Black"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_709690710_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_709690710_Preview.jpeg",
+  "rating": 4.5
+},{
+  "id": 64,
+  "title": "Indian Marriage Groom & Bride Set",
+  "description": "Traditional and elegant matching set for Indian wedding groom and bride, featuring classic attire with intricate designs.",
+  "category_id": 1,
+  "type_id": 17,
+  "brand": "EthniCraft",
+  "price": 299.99,
+  "size": ["S", "M", "L", "XL"],
+  "color": ["Red", "Gold"],
+  "discount": 20,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_725601556_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_725601556_Preview.jpeg",
+  "rating": 4.9
+},
+{
+  "id": 65,
+  "title": "Men's Simple Pink and White Line Kurta Set",
+  "description": "Comfortable and stylish pink kurta with white line patterns, perfect for casual and festive wear.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 49.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Pink", "White"],
+  "discount": 12,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_852477948_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_852477948_Preview.jpeg",
+  "rating": 4.4
+},{
+  "id": 66,
+  "title": "Indian Couple Traditional Wear Combo Set",
+  "description": "Elegant matching traditional outfits for couples, perfect for weddings and festive occasions.",
+  "category_id": 1,
+  "type_id": 17,
+  "brand": "EthniCraft",
+  "price": 279.99,
+  "size": ["S", "M", "L", "XL"],
+  "color": ["Red", "Gold"],
+  "discount": 18,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_852489843_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_852489843_Preview.jpeg",
+  "rating": 4.9
+},{
+  "id": 67,
+  "title": "Indian Couple Saree and Kurta Set",
+  "description": "Beautiful traditional Indian saree and kurta set for couples, perfect for weddings and cultural events.",
+  "category_id": 1,
+  "type_id": 17,
+  "brand": "EthniCraft",
+  "price": 299.99,
+  "size": ["S", "M", "L", "XL"],
+  "color": ["Red", "Gold"],
+  "discount": 20,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_852490030_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_852490030_Preview.jpeg",
+  "rating": 4.9
+},{
+  "id": 68,
+  "title": "Men's Reception Function Kurta",
+  "description": "Elegant kurta designed for reception functions, featuring premium fabric and intricate embroidery.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 79.99,
+  "size": ["M", "L", "XL", "XXL"],
+  "color": ["Beige"],
+  "discount": 18,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_876836247_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_876836247_Preview.jpeg",
+  "rating": 4.7
+},{
+  "id": 69,
+  "title": "Stylish Men's Yellow Kurta",
+  "description": "Bright yellow kurta for men with stylish design, perfect for festive occasions and casual wear.",
+  "category_id": 1,
+  "type_id": 16,
+  "brand": "EthniCraft",
+  "price": 54.99,
+  "size": ["M", "L", "XL"],
+  "color": ["Yellow"],
+  "discount": 15,
+  "images": [
+    "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_876836791_Preview.jpeg"
+  ],
+  "thumbnail": "https://cdn.jsdelivr.net/gh/Tejasmalokar2002/ecommerce-assets/products/AdobeStock_876836791_Preview.jpeg",
+  "rating": 4.6
+}
+
+
+    ]
+}
