@@ -9,7 +9,7 @@ function ProductDetails() {
     const [breadcrumbLinks, setBreadCrumbLink] = useState([]);
 const productCategory = useMemo(() => {
   return categories?.find((category) => category?.id === product?.categoryId);
-}, [product, categories]);
+}, [product]);
 
 
 
