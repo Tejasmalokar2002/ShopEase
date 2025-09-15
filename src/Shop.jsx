@@ -8,10 +8,12 @@ const Shop = ()=>{
     <>
       <HeroSection/>
       <NewArrivals/>
-       {content?.categories &&
+       {/* {content?.categories &&
     content.categories.map((item, index) => (
       <Category key={item?.title + index} {...item} />
-    ))}
+    ))} */}
+          {content?.pages?.shop?.sections && content?.pages?.shop?.sections?.map((item, index) => <Category key={item?.title+index} {...item} />)}
+
    <Footer content={content?.footer}/>
     </>
   )

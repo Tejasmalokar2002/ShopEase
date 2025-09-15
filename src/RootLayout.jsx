@@ -6,7 +6,7 @@ const RootLayout = () => {
   return (
     <>
       <Navigation />
-      <Outlet /> {/* renders the matching child route */}
+      <Outlet />
     </>
   );
 };
