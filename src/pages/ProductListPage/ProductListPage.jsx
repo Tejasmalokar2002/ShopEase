@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import FilterIcon from '../../components/common/FilterIcon'
 import Categories from '../../components/Filters/Categories'
 import content from '../../data/content.json'
@@ -6,16 +6,42 @@ import PriceFilter from '../../components/Filters/PriceFilter';
 import ColorsFilter from '../../components/Filters/ColorsFilter';
 import SizeFilter from '../../components/Filters/SizeFilter';
 import ProductCard from './ProductCard';
+import { getAllProducts } from '../../api/fetchProducts';
+import { useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
+import { setLoading } from '../../store/features/common';
 
 const categories = content?.categories;
-function ProductListPage({categoryType}) {
-    const categoryContent = useMemo(()=>{
-        return categories?.find((category) =>category.code === categoryType);
-    },[categoryType]);;
+const ProductListPage = ({categoryType}) => {
 
-    const productListItems = useMemo(() => {
-      return content.products?.filter((product)=> product?.category_id === categoryContent?.id);
-    },[categoryContent])
+  const categoryData = useSelector((state)=> state?.categoryState?.categories);
+  const dispatch = useDispatch();
+  const [products,setProducts] = useState([]);
+
+  const categoryContent = useMemo(()=>{
+    return categories?.find((category)=> category.code === categoryType);
+  },[categoryType]);
+  
+  const productListItems = useMemo(()=>{
+    return content?.products?.filter((product)=> product?.category_id === categoryContent?.id );
+  },[categoryContent]);
+
+  const category = useMemo(()=>{
+    return categoryData?.find(element => element?.code === categoryType);
+  },[categoryData, categoryType]);
+
+
+      useEffect(()=>{
+    dispatch(setLoading(true));
+    getAllProducts(category?.id).then(res=>{
+      setProducts(res);
+    }).catch(err=>{
+      
+    }).finally(()=>{
+      dispatch(setLoading(false));
+    })
+    
+  },[category?.id, dispatch]);
   return (
     <div>
       <div className='flex'>
@@ -39,10 +65,10 @@ function ProductListPage({categoryType}) {
             </div>
         </div>
         <div className='p-[15px]'>
-            <p className='text-black text-lg'>{categoryContent?.description}</p>
+            <p className='text-black text-lg'>{category?.description}</p>
             <div className='pt-4 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 px-2'>
-              {productListItems?.map((item, index)=>(
-                <ProductCard key={index} {...item} />
+              {products?.map((item, index)=>(
+                <ProductCard key={item?.id + "_" + index} {...item} title={item?.name} />
               ))}
             </div>
         </div>

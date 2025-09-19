@@ -16,7 +16,7 @@ const ProductCard = ({
   return (
     <div className="w-full max-w-sm flex flex-col relative border rounded-lg overflow-hidden hover:scale-105 transition-transform duration-200">
       
-      <Link to={`/product/${id}`}>
+      <Link to={`/product/${slug}`}>
         <img
           className="h-64 w-full object-cover cursor-pointer"
           src={thumbnail}
