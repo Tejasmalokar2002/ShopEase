@@ -21,7 +21,7 @@ export const createOrderRequest = (cartItems,userId,addressId)=>{
     request.discount = 0;
     request.paymentMethod= "CARD";
     request.expectedDeliveryDate = "2024-10-05T21:11:46.202Z";
-    request.currency = "usd";
+    request.currency = "inr";
     return request;
 
 }
