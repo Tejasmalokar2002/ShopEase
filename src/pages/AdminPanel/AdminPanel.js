@@ -36,7 +36,7 @@ const httpClient = (url, options = {}) => {
 //   return fetchUtils.fetchJson(url,options);
 // }
 
-const dataProvider = withLifecycleCallbacks(simpleRestProvider('http://localhost:8080/api',httpClient),[
+const dataProvider = withLifecycleCallbacks(simpleRestProvider('https://easyby-backend.onrender.com/api',httpClient),[
   {
     resource:"products",
     beforeSave: async (params,dataProvider) =>{

@@ -6,7 +6,7 @@ export const API_URLS = {
     GET_CATEGORY: (id) => `/api/category/${id}`,
 }
 
-export const API_BASE_URL = 'http://localhost:8080';
+export const API_BASE_URL = 'https://easyby-backend.onrender.com';
 
 
 export const getHeaders = ()=>{
