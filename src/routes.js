@@ -19,6 +19,7 @@ import OrderConfirmed from './pages/OrderConfirmed/OrderConfirmed';
 import Profile from './pages/Account/Profile';
 import Orders from './pages/Account/Orders';
 import Settings from './pages/Account/Settings';
+import AdminPanel from './pages/AdminPanel/AdminPanel';
 export const router = createBrowserRouter([
   {
     element: <RootLayout />, // This wraps all child routes with Navigation
@@ -90,5 +91,8 @@ export const router = createBrowserRouter([
   },{
     path:'/confirmPayment',
     element:<ConfirmPayment/>
-  }
+  },{
+      path:'/admin/*',
+      element:<ProtectedRoute><AdminPanel /></ProtectedRoute>
+    }
 ]);

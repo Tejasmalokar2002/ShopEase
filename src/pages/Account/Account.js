@@ -27,7 +27,7 @@ const Account = () => {
  
     return (
     <div className="p-6 max-w-7xl mx-auto">
-      {isUserAdmin && (
+      {/* {isUserAdmin && ( */}
         <div className="flex justify-end mb-4">
           <Link
             to="/admin"
@@ -36,7 +36,7 @@ const Account = () => {
             Manage Admin
           </Link>
         </div>
-      )}
+      {/* )} */}
 
       {userInfo?.email && (
         <div className="bg-white rounded-lg shadow-md p-6">
