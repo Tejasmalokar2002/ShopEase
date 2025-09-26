@@ -1,3 +1,4 @@
+// routes.jsx
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import RootLayout from './RootLayout';
@@ -20,13 +21,20 @@ import Profile from './pages/Account/Profile';
 import Orders from './pages/Account/Orders';
 import Settings from './pages/Account/Settings';
 import AdminPanel from './pages/AdminPanel/AdminPanel';
+import NewArrivalProduct from './pages/ProductListPage/NewArrivalProduct';
+
 export const router = createBrowserRouter([
   {
-    element: <RootLayout />, // This wraps all child routes with Navigation
+    element: <RootLayout />,
     children: [
       {
         path: '/',
         element: <Shop />,
+      },
+      // Specific routes first
+      {
+        path: '/new-arrivals/:categoryType',
+        element: <NewArrivalProduct />,
       },
       {
         path: '/women',
@@ -41,58 +49,67 @@ export const router = createBrowserRouter([
         loader: loadProductBySlug,
         element: <ProductDetails />,
       },
+      // Generic dynamic route LAST
       {
-        path:'/cart-items',
-        element: <ProtectedRoute><Cart /></ProtectedRoute>, // Protect Cart route
+        path: '/:categoryType', // This should be LAST to avoid conflicts
+        element: <ProductListPage />,
       },
-        {
-          path:'/account-details/',
-          element: <ProtectedRoute><Account /></ProtectedRoute>,
-          children:[
-            {
-              path:'profile',
-              element:<ProtectedRoute><Profile/></ProtectedRoute>
-            },
-            {
-              path:'orders',
-              element:<ProtectedRoute><Orders/></ProtectedRoute>
-            },
-            {
-              path:'settings',
-              element:<ProtectedRoute><Settings /></ProtectedRoute>
-            }
-          ]
-         },{
-          path:'/checkout',
-          element:<ProtectedRoute><Checkout /></ProtectedRoute>
-         },{
-          path:'/orderConfirmed',
-          element:<OrderConfirmed/>
-         }
+      {
+        path: '/cart-items',
+        element: <ProtectedRoute><Cart /></ProtectedRoute>,
+      },
+      {
+        path: '/account-details/',
+        element: <ProtectedRoute><Account /></ProtectedRoute>,
+        children: [
+          {
+            path: 'profile',
+            element: <ProtectedRoute><Profile/></ProtectedRoute>
+          },
+          {
+            path: 'orders',
+            element: <ProtectedRoute><Orders/></ProtectedRoute>
+          },
+          {
+            path: 'settings',
+            element: <ProtectedRoute><Settings /></ProtectedRoute>
+          }
+        ]
+      },
+      {
+        path: '/checkout',
+        element: <ProtectedRoute><Checkout /></ProtectedRoute>
+      },
+      {
+        path: '/orderConfirmed',
+        element: <OrderConfirmed/>
+      }
     ],
   },
   {
-    path:"/v1/",
-    element:<AuthenticationWrapper />,
-    children:[
+    path: "/v1/",
+    element: <AuthenticationWrapper />,
+    children: [
       {
-        path:"login",
-        element:<Login />
+        path: "login",
+        element: <Login />
       },
       {
-        path:"register",
-        element:<Register />
+        path: "register",
+        element: <Register />
       }
     ]
   }, 
   {
-    path:'/oauth2/callback',
-    element:<OAuth2LoginCallback />
-  },{
-    path:'/confirmPayment',
-    element:<ConfirmPayment/>
-  },{
-      path:'/admin/*',
-      element:<ProtectedRoute><AdminPanel /></ProtectedRoute>
-    }
+    path: '/oauth2/callback',
+    element: <OAuth2LoginCallback />
+  },
+  {
+    path: '/confirmPayment',
+    element: <ConfirmPayment/>
+  },
+  {
+    path: '/admin/*',
+    element: <ProtectedRoute><AdminPanel /></ProtectedRoute>
+  }
 ]);

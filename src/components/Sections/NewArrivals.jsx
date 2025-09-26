@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionsHeading from './SectionsHeading/SectionsHeading'
+import SectionHeading  from './SectionsHeading/SectionsHeading'
 import Card from '../Card/Card'
 import Jeans from '../../assets/img/jeans.jpg'
 import Shirt from '../../assets/img/shirts.jpg'
@@ -12,31 +12,37 @@ import { responsive } from '../../utils/Section.constants';
 import './NewArrivals.css';
 const items = [{
     'title' : 'Jeans',
-    imagePath:Jeans
+    imagePath:Jeans,
+    'categoryType':"ce4ef1f7-208f-42a2-b980-094064c34ccb"
 },{
     'title' : 'Shirt',
-    imagePath:Shirt
+    imagePath:Shirt,
+    'categoryType':"b7f15f99-74f6-41ed-af25-bc28db8d1a22"
 },{
     'title' : 'T-Shirt',
-    imagePath:TShirt
+    imagePath:TShirt,
+    'categoryType':"86852af3-5da2-4d2e-a139-96c1ea02aeff"
 },{
     'title' : 'Dresses',
-    imagePath:Dresses
+    imagePath:Dresses,
+    'categoryType':"c4c23b77-df0e-42ae-b681-3c4e948dceca"
 },
 {
     'title' : 'Kurti',
-    imagePath:Kurtis
+    imagePath:Kurtis,
+    'categoryType':"a863ecb2-2ab1-41cf-b7ad-d7883f2aa64e"
 },
 {
     'title' : 'Jogger',
-    imagePath:Jogger
+    imagePath:Jogger,
+    'categoryType':"ce4ef1f7-208f-42a2-b980-094064c34ccb"
 }
 ]
 const NewArrivals = () => {
   return (
     <>
-    <SectionsHeading title={'New Arrivals'} />
-     <Carousel
+      <SectionHeading title={'New Arrivals'} />
+      <Carousel
         responsive={responsive}
         autoPlay={false}
         swipeable={true}
@@ -47,11 +53,17 @@ const NewArrivals = () => {
         itemClass={'react-slider-custom-item'}
         className='px-8'
       >
-        {items && items?.map((item,index)=> <Card key={item?.title +index} title={item.title} imagePath={item.imagePath}/>)}
-
+        {items && items?.map((item, index) => (
+          <Card 
+            key={item?.title + index} 
+            title={item.title} 
+            imagePath={item.imagePath}
+            categoryType={item.categoryType} // Pass categoryType prop
+          />
+        ))}
       </Carousel>
     </>
   )
 }
 
-export default NewArrivals
+export default NewArrivals;
