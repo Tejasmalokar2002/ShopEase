@@ -176,7 +176,7 @@ return (
         <p className='text-3xl pt-4'>{product?.name}</p>
         <Rating rating={product?.rating} />
         {/* Price Tag */}
-        <p className='text-xl bold py-2'>${product?.price}</p>
+        <p className='text-xl bold py-2'>₹{product?.price}</p>
         <div className='flex flex-col py-2'>
           <div className='flex gap-2'>
             <p className='text-sm bold'>Select Size</p>

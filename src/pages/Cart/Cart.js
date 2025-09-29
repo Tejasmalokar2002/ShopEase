@@ -100,7 +100,7 @@ const Cart = () => {
                                     </div>
                                 </td>
                                 <td>
-                                    <p className='text-center text-sm text-gray-600'>${item?.price}</p>
+                                    <p className='text-center text-sm text-gray-600'>₹{item?.price}</p>
                                 </td>
                                     
                                 <td>
@@ -112,7 +112,7 @@ const Cart = () => {
                                 </td>
 
                                 <td>
-                                    <p className='text-center text-sm text-gray-600'>${item?.subTotal}</p>
+                                    <p className='text-center text-sm text-gray-600'>₹{item?.subTotal}</p>
                                 </td>
 
                                 <td>
@@ -135,9 +135,9 @@ const Cart = () => {
                 </form>
             </div>
             <div className='mr-20 pr-8'>
-                <div className='flex gap-8 text-lg'><p className='w-[120px]'>SubTotal</p> <p>${subTotal}</p></div>
-                <div className='flex gap-8 text-lg mt-2'><p className='w-[120px]'>Shipping</p> <p>${0}</p></div>
-                <div className='flex gap-8 text-lg mt-2 font-bold'><p className='w-[120px]'>Grand Total</p> <p>${subTotal}</p></div>
+                <div className='flex gap-8 text-lg'><p className='w-[120px]'>SubTotal</p> <p>₹{subTotal}</p></div>
+                <div className='flex gap-8 text-lg mt-2'><p className='w-[120px]'>Shipping</p> <p>₹{0}</p></div>
+                <div className='flex gap-8 text-lg mt-2 font-bold'><p className='w-[120px]'>Grand Total</p> <p>₹{subTotal}</p></div>
                 <hr className='h-[2px] bg-slate-400 mt-2'></hr>
                 {isLoggedIn && <button className='w-full items-center h-[48px] bg-black border rounded-lg mt-2 text-white hover:bg-gray-800' onClick={()=> navigate("/checkout")}>Checkout</button>}
                 {!isLoggedIn && <div className='p-4'><Link to={"/v1/login"} className='w-full p-2 items-center h-[48px] bg-black border rounded-lg mt-2 text-white hover:bg-gray-800'>Login to Checkout</Link></div>}

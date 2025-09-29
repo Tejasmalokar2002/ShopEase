@@ -8,6 +8,7 @@ import { fetchCategories } from './api/fetchCategories';
 import { useDispatch } from 'react-redux';
 import { loadCategories } from './store/features/category';
 import { setLoading } from './store/features/common';
+import MapWithGeolocation from './components/MapWithGeolocation';
 const Shop = ()=>{
 
   const dispatch = useDispatch();
@@ -31,7 +32,6 @@ const Shop = ()=>{
       <Category key={item?.title + index} {...item} />
     ))} */}
           {content?.pages?.shop?.sections && content?.pages?.shop?.sections?.map((item, index) => <Category key={item?.title+index} {...item} />)}
-
    <Footer content={content?.footer}/>
     </>
   )

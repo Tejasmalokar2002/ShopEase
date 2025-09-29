@@ -129,10 +129,10 @@ const Checkout = () => {
       <div className='w-[30%] h-[30%] border rounded-lg border-gray-500 p-4 flex flex-col gap-4'>
         <p>Order Summary</p>
         <p>Items Count = {cartItems?.length}</p>
-        <p>SubTotal = ${subTotal}</p>
+        <p>SubTotal = ₹{subTotal}</p>
         <p>Shipping = FREE</p>
         <hr className='h-[2px] bg-gray-400'></hr>
-        <p>Total Amount = ${subTotal}</p>
+        <p>Total Amount = ₹{subTotal}</p>
       </div>
     </div>
   );

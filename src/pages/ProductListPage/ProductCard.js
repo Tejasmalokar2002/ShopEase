@@ -32,7 +32,7 @@ const ProductCard = ({
           )}
         </div>
         <div className="text-sm font-semibold text-gray-800 whitespace-nowrap">
-          ${price}
+          ₹{price}
         </div>
       </div>
 
